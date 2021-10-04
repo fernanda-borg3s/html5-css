@@ -1,2 +1,2 @@
 # html5-css
-Primeiro site usando html5 e css3
+Primeiro website para praticar comandos de html5 e css3
