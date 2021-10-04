@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Vegetan&pequi - Comida vegetariana e especiarias com pequi</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Fernanda Borges" />
+		<meta name="keywords" content="vegetan e pequi, restaurante nordestino, brownie de pequi, suco de pequi, comida vegetariana, restaurante" />
+		<meta name="description" content="Resturante vegetariano com uma variedade de pratos com pequi"/>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css" /> 
+
+	</head>
+	<body>
+		<header>
+			<img src="imgs/banner.png" alt="banner contendo a logo com imagens da salada e brownie de pequi" />
+		</header>
+		<nav>
+			<a class="a-menu" href="#"> HOME </a>
+			<a class="a-menu" href="#pag-promocoes"> PROMOÇÕES </a>
+			<a class="a-menu" href="#pag-pratos"> PRATOS </a>
+			<a class="a-menu" href="#pag-contatos"> CONTATOS </a>
+			<a class="a-menu" href="reservas.html"> RESERVAR </a>
+		</nav>
+		<article>
+			<h1>Vegetan & Pequi</h1>
+
+				<p>Desde dos anos 2000 funcionamos com a ideia de trazer um pouco do nordeste representados no nossos variados pratos que levam como ingrediente principal, o pequi. E o que nos diferenciam e a nossa especialidade em fazer com que esses pratos sejam totalmente vegetarianos e absolutamente delicíosos.</p>
+
+				<p class="p-2"><strong><span id="txt-deep">Vegetan & Pequi</span></strong> possui um ambiente aconchegante com música e uma carta de vinhos atraente. Foi eleito como um dos melhores restaurantes dessa especialidade pelas revistas Veja São Paulo, Época e os jornais Estadão e Folha de São Paulo no Guia de Restaurantes. Serve almoço e jantar com buffet de saladas e sopas, pratos que variam de acordo com os dias da semana ou de acordo com as sugestões do chef.</p>
+
+				<p class="p-3">Venha apreciar o nosso famoso brownie de pequi e entre outras de nossas iguarias, estamos esperando por você!</p>
+		</article>
+
+		<section id="pag-promocoes">
+			<h2>Promoções</h2>
+
+				<ul >
+					<li>Datas Especiais/ Comemorativas</li>
+					<li>Aniversariante do Mês</li>
+					<li>Sorteios</li>
+				</ul>
+
+				<p>* No caso do aniversariante do mês ou o contemplado por sorteio devem ser informardos no ato da reserva e comparecer com os documentos solicitados no dia marcado. </p>
+		</section>		
+		
+		<section id="pag-pratos">
+			<h2>Pratos</h2>
+
+			<p class="p1-pratos">Confira algumas opções do nosso cardápio!</p>
+		
+			<div id="container">
+				<div class="card">
+					<img class="img-pratos" src="imgs/fig1.jpg"  alt="arroz com pequi em um prato" />
+						<div class="card-content">
+							<h3>Arroz Tradicional</h3>
+							<p>O mais saboroso e tradicional arroz com pequi do nordeste.</p>
+						</div>
+				</div>
+
+				<div class="card">
+					<img class="img-pratos" src="imgs/fig2.jpg" alt="salada com casca de pequi em um prato" />
+						<div class="card-content">
+							<h3>Salada com Pequi</h3>
+							<p>A especialidade da casa, a salada vegetariana com raspas de pequi completamente irresitível.</p>
+						</div>
+				</div>
+
+				<div class="card">
+					<img class="img-pratos" src="imgs/fig3.jpg" alt="um copo de suco de pequi com um pequi cortado ao meio"/>
+						<div class="card-content">
+							<h3>Bebidas</h3>
+							<p>Bebidas de variados tipos e gostos, além de iguarias como o suco e vitaminas a base de pequi.</p>
+						</div>
+				</div>
+
+				<div class="card">
+					<img class="img-pratos" src="imgs/fig4.jpg" alt="um brownie recheado com brigadeiro de pequi" />
+						<div class="card-content">
+							<h3>Sobremesas</h3>
+							<p>Um cardápio vasto de sobremesas. E é claro, o nosso famoso e inédito brownie de pequi.</p>
+						</div>
+				</div>
+			</div>
+			
+		</section>
+			
+		<section id="pag-contatos">
+			<h2>CONTATOS</h2>
+				<div id="container-contatos">
+					<div class="coluna-contatos">
+
+						<p>Dúvidas, críticas ou sugestões, entre em contanto conosco por meio do campo abaixo.</p>
+						<p>Para reservas, acesse a página <a class="a-reservar" href="reservas.html" target="_blank">RESERVAR</a>  e prencha os campos corretamente.</p>
+					
+						<form name="contato" method="" action="">
+							<label for="nome">Nome:</label>
+							<input class="box-contato" type="text" name="nome_completo" placeholder="Nome" required />
+
+							
+							<label for="email">Email:</label>
+							<input class="box-contato" type="email" name="email"placeholder="exemplo@email.com" required />
+									
+							<fieldset>
+								<legend>Assunto:</legend>
+								<input id="duvida" type="radio" name="assunto" value="duvida" /> <label for="duvida">Dúvida</label> 
+								<input id="critica" type="radio" name="assunto" value="critica" /> <label for="critica">Crítica</label> 
+								<input id="sugestao" type="radio" name="assunto" value="sugestao" /> <label for="sugestao">Sugestão</label>
+								<textarea id="msg" cols="80" rows="9" placeholder="Escolha o assunto acima e digite sua mensagem aqui"></textarea>
+							</fieldset>
+								
+
+							<div id="botoes-form">
+								<input type="submit" name="bnt-reservar" value="ENVIAR" />
+								<input type="reset" name="btn-cancelar" value="CANCELAR">
+							</div>
+						</form>	
+
+					</div>
+					<div class="coluna-contatos">
+						<video src="imgs/video1.mp4" controls="controls" autoplay preload="auto" loap >
+						Seu navegador não suporta vídeo!
+						</video>
+					</div>
+				</div>	
+			
+		</section>	
+
+				<div id="container-icone">
+					<div class="redes">
+						<img class="img-icone" src="imgs/icone1.png " />
+						<a class="a-redes" href="#">@vegetan&pequi </a>
+
+						<img class="img-icone" src="imgs/icone2.png"  />
+						<a class="a-redes" href="#">www.vegetanepequi.com.br </a>
+
+						<img class="img-icone" src="imgs/icone3.png" />
+						<a class="a-redes" href="https://www.google.com.br/maps/place/Planaltina,+Bras%C3%ADlia+-+DF/@-15.6857594,-47.6847144,11z/data=!3m1!4b1!4m5!3m4!1s0x935a0ec423e1d32b:0x33d436feb3c0e2b2!8m2!3d-15.6216249!4d-47.6521514?hl=pt-BR" target="_blank">Qd 11 CJ 5 LOJA 12 - Av. Independência, Planaltina-DF</a>
+					</div>
+				</div>
+	
+					<h1>Vegetan & Pequi</h1>
+	
+
+		<footer>
+			<p >Desenvolvido por <a href="http://instagram.com/nandarotteveel__" target="_blank">Fernanda Borges</a> - 2020</p>
+		</footer>
+	</body>
+</html>

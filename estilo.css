@@ -1,0 +1,364 @@
+/*seletor{propriedade:valor;}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+*{margin:0; padding: 0;}
+
+body{
+	background-color: rgb(255,255,255);
+}
+
+header, img{
+	width:100%;
+	height:500px;
+}
+
+nav{
+	background-color: #C7E265;
+	text-align: center;
+	padding: 10px;
+
+}
+
+a{
+	font: 1.5rem 'Noto Serif TC', serif;
+	color: #5B330B;
+	text-decoration: none;
+}
+
+.a-menu{
+	margin-right: 40px;
+	font-weight: bold;
+}
+
+.a-menu:link, .a-menu:visited{
+	color: #5B330B;
+}
+.a-menu:hover, .a-menu:active{
+	color: #d97716;
+}
+/* link: elemento assim que é carregado*/
+/*visited: depois que ele foi clikado*/
+/* hover- passa o mouse sobre*/
+/*active: quando ele esta apertado*/
+
+
+article{
+	width: 100%;
+	background-color: #FFF;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+
+h1{
+	font: 3rem 'Berkshire Swash', cursive;
+	color: rgb(225,123,2);
+	text-align: center;
+	margin: 40px 30px; /*top(cima) e right, left (esquerda e direita)*/
+}
+
+p{
+	font-family: Noto Serif TC, serif;
+	font-size: 23px;
+	color: rgb(225,123,2);
+	text-align: justify;
+	line-height: 30px;
+}
+
+.p-2{
+	margin-top: 20px;
+}
+#txt-deep{
+	font: 30px 'Berkshire Swash', cursive;
+	color: rgb(225,123,2);
+	font-weight: 700;
+}
+.p-3{
+	margin-top: 20px;
+	text-align: right;
+}
+
+section{
+	padding: 20px;
+}
+
+h2{
+	font: 3rem 'Noto Serif TC', serif;
+	color: #5B330B;
+	font-weight: bold;
+	margin: 30px 30px;
+}
+
+#pag-promocoes{
+	background-color: #C7E265;
+	
+}
+
+#pag-promocoes p{
+	color: #C86D02;
+	font-size: 15px;
+	color: #5B330B;
+	font-weight: bold;
+	text-align: right;
+}
+
+/*formatação da lista*/
+ul{
+	list-style-type: square;
+	padding: 20px 50px;
+}
+li{
+	font: 1.7rem 'Noto Serif TC', serif;
+	color: #AE6106;
+	margin-bottom: 10px;
+}
+
+#pag-pratos{
+	background-color: #FFF;
+}
+.p1-pratos{
+	margin-left: 30px;
+	color: rgb(225,123,2);
+	font-weight: bold;
+}
+
+#container{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.card{
+	background-color: #FFF1BB;
+	margin: 10px; /* todas as margens*/
+	width: 25%;
+	padding: 10px;
+	border-radius: 7px;
+	box-shadow: 0 6px 10px #CCC; 
+/* o 1º px é quantidade que vai aparecer na direita; O 2º é a quantidade para baixo ( valores negativos aparecem ao contrario (esquerda, acima))*/
+/*o 3º é a quantidade de dispersão da sombra*/
+	transition: 0.1s;
+}
+.card:hover{
+	box-shadow: 0 10px 20px #CCC;
+}
+
+.img-pratos{
+	height: 300px;
+}
+.card-content{
+	padding: 10px;
+}
+.card-content p{
+	font-family: Noto Serif TC, serif;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+
+h3{
+	font: 1.5rem 'Noto Serif TC', serif;
+	font-weight: bold;
+	color: #C86D02;
+	text-align: center;
+	padding: 10px;
+}
+
+
+#pag-contatos p{
+	font-family: Noto Serif TC, serif;
+	font-size: 20px;
+	color: rgb(225,123,2);
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+#container-contatos{
+	display: flex;
+}
+.coluna-contatos{
+	padding: 10px;
+}
+	.a-reservar:link, .a-reservar:visited{
+		color: #5B330B;
+	}
+	.a-reservar:hover, .a-reservar:active{
+		color: orange;
+}
+
+/*formulario Home*/
+
+form[name="contato"]{
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+.box-contato{
+	width: 41%;
+	height: 25px;
+	margin-bottom: 8px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #c4c4c4
+}
+fieldset{
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+	padding: 10px;
+
+}
+input[type="radio"]{
+	width: 15px;
+	height: 15px;
+	margin-left: 50px;
+
+}
+
+textarea{
+	width: 100%;
+	height: 80px;
+	font-family: Noto Serif TC, serif;
+	font-size: 15px;
+
+}
+/* + configuraçoes no form [nome='reserva']*/
+
+video{
+	width: 750px;
+}
+
+.redes{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img-icone{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+.a-redes{
+	margin-right: 40px;
+	font-weight: bold;
+}
+	.a-redes:link, .a-redes:visited{
+		color: #5B330B;
+	}
+	.a-redes:hover, .a-redes:active{
+		color: #d97716;
+	}
+
+
+footer{
+	background-color: #000;
+	padding: 20px;
+}
+footer p{
+	text-align: center;
+	color: #FFF;
+}
+
+footer a{
+	color: #FFF;
+	font-weight: bold;
+}
+footer a:hover{
+	color: rgb(225,123,2);
+}
+
+/*página de reservar*/
+
+
+#pag-reservar p{
+	text-align: center;
+	color: #5B330B;
+	margin-bottom: 20px;
+}
+
+form[name="reserva"]{
+	width: 500px;
+	margin: 0 auto;
+}
+
+input, select{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #c4c4c4;
+	font-size: 14px;
+
+}
+
+label, fieldset{
+	font-family: Noto Serif TC, serif;
+	font-size: 18px;
+	color: #5B330B;	
+
+}
+
+#cpf-celular{
+	display: flex;
+}
+.celular{
+	margin-left: 52px;
+}
+#qtnd-data-hora{
+	display: flex;
+
+}
+.data{
+	width: 165px;
+}
+.hora{
+	margin: 0px 30px;
+}
+
+#botoes-form{
+	display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+	margin: 20px;
+	background-color: #C7E265;
+	color: #5B330B;
+	border: 0;
+	border-radius: 5px;
+	font-family: Noto Serif TC, serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input[type="reset"]{
+	background-color: #f47e7e;
+}
+
+#pag2-reservar p{
+	text-align: center;
+	color: #5B330B;
+	margin-bottom: 20px;
+}
+
+.telefone{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-telefone{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	
+}
+.a-telefone{
+	margin-right: 40px;
+	font-weight: bold;
+	color: #3f51b5;
+	font-size: 50px;
+}

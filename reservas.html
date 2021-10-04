@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>RESERVAR - Vegetan&pequi</title>
+		<meta charset="utg-8" />
+		<meta name="author" content="Fernanda Borges" />
+		<meta name="keywords" content="vegetan e pequi, restaurante nordestino, reservar online, reservas" />
+		<meta name="description" content="Reservas online ou por telefone no restaurante vegetan&pequi - comida vegetariana e especiarias com pequi">
+		
+	<link rel="stylesheet" type="text/css" href="estilo.css" /> 
+
+	</head>
+	<body>
+		<header>
+			<img src="imgs/banner.png" alt="banner contendo a logo com imagens da salada e brownie de pequi" />
+		</header>
+		<nav>
+			<a class="a-menu" href="index.html"> HOME </a>
+			<a class="a-menu" href="index.html#pag-promocoes"> PROMOÇÕES </a>
+			<a class="a-menu" href="index.html#pag-pratos"> PRATOS </a>
+			<a class="a-menu" href="index.html#pag-contatos"> CONTATOS </a>				
+			<a class="a-menu" href="#"> RESERVAR </a>
+		</nav>
+		
+			<section id="pag-reservar">
+				<h1>Fazer Reserva Online</h1>
+
+				<p>Certifique-se de prencher o campo abaixo corretamente e em seguida click em enviar e aguarde as demais informações que serão enviados ao e-mail cadastrado.</p>
+
+				<form name="reserva" method="" action="" >
+					<label for="nome">Nome:</label>
+					<input id="nome" type="text" name="nome_completo" placeholder="Nome completo" required autofocus />
+
+					<label for="email">E-mail:</label>
+					<input id="email" type="email" name="email" placeholder="exemplo@email.com" required />
+
+					<div id="cpf-celular">
+						<div>
+							<label for="cpf">CPF:</label>
+							<input id="cpf" type="text" name="cpf" class="form-control cpf-mask" placeholder="Ex.: 000.000.000-00" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
+						</div>
+						<div class="celular">
+							<label for="celular">Celular: </label>
+							<input id="celular" type="tel" name="celular" placeholder="Ex.:(00)00000-0000" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" required />
+						</div>
+					</div>	
+					<p>Reserva para:</p>
+					<div id="qtnd-data-hora">
+
+						<div class="data">
+							<label for="data">Qual dia?</label>
+							<input type="date" name="data" required />
+						</div>
+						<div class="hora">
+							<label for="hora" >Hora:</label>
+							<input type="time" name="hora" required />
+						</div>
+						
+						<div>
+							<label for="pessoas">Quantas pessoas?</label>
+							<input type="number" name="pessoas" min="1" max="200" step="1" placeholder="Quantidade de pessoas" required />
+						</div>	
+					</div>
+
+					<label for="promocao">Escolha a promoção:</label>
+					<select id="promocao" name="promocao">
+						<option>Nenhum</option>
+						<option>Datas Especiais/ Comemorativas</option>
+						<option>Aniversariante do Mês</option>
+						<option>Sorteios</option>
+					</select>
+
+					<div id="botoes-form">
+						<input type="submit" name="bnt-reservar" value="ENVIAR" />
+						<input type="reset" name="btn-cancelar" value="CANCELAR">
+					</div>
+				</form>	
+			</section>
+			
+
+			<section id="pag2-reservar">
+				<h1 align="center">Fazer Reserva Por Telefone</h1>
+
+				<p>Telefones para reservas apenas. Dúvidas, críticas ou sugestões, <strong><a class="a-reservar" href="index.html#pag-contatos" target="_blank">click aqui</a></strong></p>
+
+				<div class="telefone">
+						<img class="img-telefone" src="imgs/icone4.png"/>
+						<a class="a-telefone" href="#">(61) 3334-9999 / (61) 3333-5555 </a> 
+				</div> 
+			
+			</section>
+
+			<div id="container-icone">
+					<div class="redes">
+						<img class="img-icone" src="imgs/icone1.png " />
+						<a class="a-redes" href="#">@vegetan&pequi </a>
+
+						<img class="img-icone" src="imgs/icone2.png"  />
+						<a class="a-redes" href="#">www.vegetanepequi.com.br </a>
+
+						<img class="img-icone" src="imgs/icone3.png" />
+						<a class="a-redes" href="https://www.google.com.br/maps/place/Planaltina,+Bras%C3%ADlia+-+DF/@-15.6857594,-47.6847144,11z/data=!3m1!4b1!4m5!3m4!1s0x935a0ec423e1d32b:0x33d436feb3c0e2b2!8m2!3d-15.6216249!4d-47.6521514?hl=pt-BR" target="_blank">Qd 11 CJ 5 LOJA 12 - Av. Independência, Planaltina-DF</a>
+					</div>
+				</div>
+						
+		<h1>Vegetan & Pequi</h1>
+
+
+		<footer>
+			<p>Desenvolvido por <a href="http://instagram.com/nandarotteveel__" target="_blank">Fernanda Borges</a> - 2020</p>
+		</footer>
+	</body>
+</html>
