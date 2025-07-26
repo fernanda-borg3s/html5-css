@@ -22,10 +22,10 @@ Bem-vindo ao site do Vegetan&Pequi, um restaurante de comida vegetaria e especia
 Você pode clonar este repositório e abrir o arquivo `index.html` diretamente no seu navegador:
 
 ```bash
-git clone https://github.com/fernanda-borg3s/vegetanepequi.git
-cd vegetanepequi
+git clone https://github.com/fernanda-borg3s/vegetan-pequi.git
+cd vegetan-pequi
 ```
 Ou visualizar online por meio do link:
 ```bash
-https://fernanda-borg3s.github.io/html5-css/index.html
+https://fernanda-borg3s.github.io/vegetan-pequi/
 ```
